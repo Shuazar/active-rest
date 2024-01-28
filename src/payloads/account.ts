@@ -62,6 +62,7 @@ export type accountMt4 = {
     Balance: number;
     PasswordInvestor: string;
     EnableOTP: boolean;
+    
   };
 };
 
