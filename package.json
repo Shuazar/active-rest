@@ -1,0 +1,23 @@
+{
+    "workspaces": [
+        "src"
+    ],
+    "scripts": {
+        "dev": "NODE_ENV=test ts-node src/main.ts",
+        "regression": "jest"
+    },
+    "dependencies": {
+        "@finonex-rnd/fino-logger": "1.0.8",
+        "@finonex-rnd/fino-providers": "1.4.3",
+        "@finonex-rnd/fino-tracing": "1.2.2",
+        "@types/node": "17.0.41",
+        "axios": "^1.6.5",
+        "ts-node": "10.8.1",
+        "typescript": "4.7.3"
+    },
+    "devDependencies": {
+        "ts-jest": "^29.1.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
