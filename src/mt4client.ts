@@ -10,6 +10,7 @@ export default class ClientMT4{
        axios.defaults.headers.common['api-key'] = apiKey;
        axios.defaults.headers.common['Content-Type'] ='application/json'
        this.instance = instanceId;
+       
     }
     private async request<T = any>({ method = "GET", apiRoute, body }: { method: "GET" | "POST", apiRoute: string, body?: any}) {
         const config: AxiosRequestConfig = {
